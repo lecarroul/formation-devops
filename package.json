@@ -2,8 +2,10 @@
   "name": "formation-devops",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": { "test": "mocha tests" }
+  "scripts": { 
+	"test": "mocha tests",
+ 	"start": "node src/server.js" 
+  }
   ,
   "repository": {
     "type": "git",
